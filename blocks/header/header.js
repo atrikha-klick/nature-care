@@ -4,7 +4,7 @@ import { loadFragment } from '../fragment/fragment.js';
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
-alert("this is test branch");
+alert('this is test branch');
 
 function closeOnEscape(e) {
   if (e.code === 'Escape') {
